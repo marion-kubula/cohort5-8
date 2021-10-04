@@ -12,10 +12,8 @@ callName('zaria',7);
 
 
 function parentFunction(paremeterFunction){
-    return paremeterFunction()
+    return paremeterFunction(uganda)
 }
-
-
 const arrowFunction = (parameter1, parameter2)=>{
     const result = parameter1 + parameter2
     console.log(result)
@@ -23,6 +21,6 @@ const arrowFunction = (parameter1, parameter2)=>{
 }
 arrowFunction(1,2);
 
-for(let i=0; i<=19;i++){
+for(let i=0; i<19;i++){
     console.log( 'I love uganda ' + i);
 }
